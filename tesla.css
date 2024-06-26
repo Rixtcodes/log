@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10%;
+    word-spacing: 2px;
+    margin-right: 40px;
+    color: black;
+}
+.navbar a{
+    padding-right: 40px;
+    color: black;
+}
+.an{
+    padding: 0;
+    margin-right: -400px ;
+    margin-left: 20px;
+}
+.title{
+    margin-left: -510px;
+    margin-right: 240px;
+    width: 100px;
+    height: 100px;
+}
+.gog{
+    text-decoration: none;
+}
+.bgimgs{
+background-image: url(Homepage-Model-3-Desktop-LHD-v2.avif);
+background-size: cover; 
+ align-items:center;
+ min-height:820px;
+ max-width:2880px;
+}
+    .lol{
+        position: relative;
+        left: 42%;
+        top: 28px;
+        line-height: 50px;
+    }
+    .lol h1,p{
+        position: relative;
+        left: 6.5%;
+    }
+.buttons{
+    position: relative;
+    left: 36%;
+    top: 440px;
+    padding-left: 45px;
+}
+.e,.f{
+    width: 250px;
+    height: 40px;
+    border: 0;
+}
+.e{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.f{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.bgimgs2{
+    background-image: url(Homepage-Model-X-Desktop-v2.avif);
+background-size: cover; 
+ align-items:center;
+ min-height:820px;
+ max-width:2880px;
+}
+.e2,.f2{
+    width: 250px;
+    height: 40px;
+    border: 0;
+    position: relative;
+    top: 70px;
+}
+.e2{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.f2{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.lol2{
+    position: relative;
+    left: 42%;
+    top: 28px;
+    line-height: 50px;
+}
+.lol2 h1,p{
+    position: relative;
+    left: 7.5%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: beige;
+    height: 50px;
+}
+.did{
+    color: aliceblue;
+    position: relative;
+    top: 40%;
+    padding-left: 40px;
+    text-decoration: none;
+}
+.buttons2{
+    position: relative;
+    left: 36%;
+    top: 520px;
+    padding-left: 45px;
+}
+.buttons2 :hover{
+    cursor: pointer;
+}
+.buttons :hover{
+    cursor: pointer;
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(wp5134857.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: black;
+    word-spacing: 2px;
+}
+
+header li, header a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.2s ease-in;
+    padding-right: 25px;
+}
+
+header a:hover {
+    color: rgb(229, 74, 190);
+    cursor: pointer;
+}
+
+p.logo1 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(229, 74, 190);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: -40px;
+}
+
+.x {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: rgba(211, 56, 180, 0.4);
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.inputfield {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button.b1 {
+    padding: 10px 20px;
+    background-color: rgb(229, 74, 190);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(229, 74, 190);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.m {
+    background-color: rgba(207, 68, 219, 0.2);
+    width: 20vw;
+    height: 50vh;
+    border-radius: 40px;
+    position: absolute;
+    left: 36%;
+}
+    
